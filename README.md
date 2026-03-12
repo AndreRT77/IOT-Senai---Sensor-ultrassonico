@@ -2,6 +2,8 @@
 
 Projeto com Esp32 e sensor ultrassônico, que liga um led ao se aproximar.
 
+## Vídeo no Youtube do funcionamento:
+https://youtu.be/KngwDc8pjJ8
 
 ## Simulação
 https://wokwi.com/projects/458290921022472193
@@ -46,9 +48,9 @@ void loop(){
 
 float obter_distancia() {
 	digitalWrite(PINO_TRIG, LOW);
-	delayMicroseconds(2);	
+	delayMicroseconds(2);
 	digitalWrite(PINO_TRIG, HIGH);
-	delayMicroseconds(10);	
+	delayMicroseconds(10);
 	digitalWrite(PINO_TRIG, LOW);
 
 	long duracao = pulseIn(PINO_ECHO, HIGH, 30000);
