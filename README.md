@@ -56,11 +56,13 @@ float obter_distancia() {
 
 	long duracao = pulseIn(PINO_ECHO, HIGH, 30000);
 
-## Dupla:
-André Roberto Tavares
-Nathan da Silva Costa
 
 	float distancia = (duracao / 2.0) * 0.0343;
 
 	return distancia;
 }
+
+
+## Dupla:
+André Roberto Tavares
+Nathan da Silva Costa
