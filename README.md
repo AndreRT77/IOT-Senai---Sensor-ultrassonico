@@ -65,4 +65,5 @@ float obter_distancia() {
 
 ## Dupla:
 André Roberto Tavares
+
 Nathan da Silva Costa
